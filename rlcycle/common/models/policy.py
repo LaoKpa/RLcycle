@@ -1,10 +1,10 @@
 from typing import Tuple
 
 import hydra
-import torch
-import torch.nn as nn
 from omegaconf import DictConfig
+import torch
 from torch.distributions import Normal
+import torch.nn as nn
 
 from rlcycle.common.models.base import BaseModel
 

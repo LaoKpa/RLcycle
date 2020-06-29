@@ -1,5 +1,5 @@
-import ray
 from omegaconf import DictConfig
+import ray
 
 from rlcycle.a2c.worker import TrajectoryRolloutWorker
 from rlcycle.a3c.worker import ComputesGradients

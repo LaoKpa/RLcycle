@@ -2,9 +2,9 @@ import time
 from typing import Tuple
 
 import numpy as np
+from omegaconf import DictConfig
 import ray
 import torch
-from omegaconf import DictConfig
 
 from rlcycle.a2c.worker import TrajectoryRolloutWorker
 from rlcycle.build import build_learner

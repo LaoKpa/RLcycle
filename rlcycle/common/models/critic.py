@@ -1,7 +1,7 @@
 import hydra
+from omegaconf import DictConfig
 import torch
 import torch.nn as nn
-from omegaconf import DictConfig
 
 from rlcycle.common.models.base import BaseModel
 
